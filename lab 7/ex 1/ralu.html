@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.serif {
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  background-color: lightblue;
+  
+}
+table {
+  width: 30%;
+}
+td {
+  text-align: center;
+}
+h2 {
+  color: red;
+}
+table, th, td {
+  border: 1px solid black;
+  color:yellow;
+  background-color:pink;
+  }
+  ul.a {
+  list-style-type: square;
+}
+img {
+  border-radius: 8px;
+  width: 7%;
+  height: 7%;
+  opacity: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+</style>
+<title>Page Title</title>
+<script>
+function viitor() {
+
+	
+
+  document.getElementById("numepofil").innerHTML = "Dr ing. Dreve Raluca";
+ document.getElementById("pozaprofil").src="poza4.jpg";
+  
+  document.getElementById("pozaprofil").style.border = "7px";
+  document.body.style.backgroundColor= "yellow";
+  var tabel = document.getElementById("tabel");
+  tabel.rows[0].cells[0].innerHTML=" Circuite Pasive";
+  tabel.rows[0].cells[1].innerHTML=" Anul 1";
+  tabel.rows[1].cells[0].innerHTML=" Sport";
+  tabel.rows[1].cells[1].innerHTML=" Anul 1";
+  tabel.rows[2].cells[0].innerHTML=" Informatica Aplicata";
+  tabel.rows[2].cells[1].innerHTML=" Anul 1";
+  
+  document.getElementById("pozaprofil").style.opacity= "0.9" ;
+  
+}
+</script>
+
+</head>
+<body>
+
+<h2 id="numepofil"> Dreve Raluca Nicoleta</h2>
+
+<h2>E-mail : dreve_raluca@yahoo.com</h2>
+ <img id="pozaprofil" src="poza.jpg" alt="poza" width="200" height="200">
+ <button type="button" onclick="viitor()">Alta viata</button>
+<h2>Educatia este cea mai puternica arma pe care voi o puteti folosi pentru a schimba lumea</h2>
+<h2>Discipline</h2>
+<table id="tabel">
+  <tr>
+    <th><a href="https://etti.utcluj.ro/files/planuri-invatamant/curent/EA_ro.pdf">Analiza Matematica</a></th>
+    <th>Anul 1</th>
+  </tr>
+
+
+  <tr>
+    <th><a href="https://etti.utcluj.ro/files/planuri-invatamant/curent/EA_ro.pdf">Programare Calculatoare</a></th>
+    <th>Anul 1</th>
+  </tr>
+
+
+  <tr>
+    <th><a href="https://etti.utcluj.ro/files/planuri-invatamant/curent/EA_ro.pdf">Fizica</a></th>
+    <th>Anul 1</th>
+  </tr>
+</table>
+
+
+<h2>Hobby: </h2>
+<ul class="a">
+  <li>Gatitul</li>
+  <li>Cititul</li>
+  <li>Iesitul cu prietenii</li>
+</ul>  
+
+
+</body>
+</html>
